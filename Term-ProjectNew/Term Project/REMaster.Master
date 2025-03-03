@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="REMaster.master.cs" Inherits="Term_Project.REMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <link href="Stylesheets/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="Stylesheets/main.css" rel="stylesheet" type="text/css" />
+
+    <link href="Stylesheets/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="Stylesheets/webflow.css" rel="stylesheet" type="text/css" />
+    <link href="Stylesheets/cis3342-term-project.webflow.css" rel="stylesheet" type="text/css" />
+
+    <link href="Stylesheets/additional.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class:"navbar">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div class="navBar">
+                <asp:Label ID="lblHomeBuy" class="centered" runat="server" Font-Bold="True" Font-Names="Rockwell Condensed" Font-Size="XX-Large" style="text-align: center; color: #ffffff; top: 15px; width: 347px;" Text="Home Buy" CssClass="centered" ForeColor="White"></asp:Label>
+            </div>
+                <div class="background">
+
+                </div>
+
+            </asp:ContentPlaceHolder>
+
+            <style>
+                
+            </style>
+        </div>
+    </form>
+    
+</body>
+</html>

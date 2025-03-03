@@ -1,0 +1,67 @@
+﻿body {
+    background-image: url(https://img.myloview.com/stickers/dark-background-pattern-simple-seamless-pattern-with-stars-on-a-black-background-vector-background-400-214366398.jpg);
+    background-size: 150px;
+    overflow: scroll;
+}
+.background {
+    position:absolute;
+    left: 10%;
+    background-color: #212121;
+    height: 100%;
+    width: 80%;
+
+}
+.centered {
+    position:absolute;
+    left: 40%;
+    z-index: 1;
+}
+.topcentered{
+    position: fixed;
+    left:45%;
+    z-index:1;
+}
+.midcentered {
+    position: fixed;
+    left: 20%;
+    z-index:1;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.style1 {
+    width: 124px;
+}
+
+.ctrlTable {
+    width: 100%;
+    padding:30px;
+}
+
+.pad {
+    padding: 20px;
+}

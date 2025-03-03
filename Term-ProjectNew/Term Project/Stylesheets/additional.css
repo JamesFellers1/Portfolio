@@ -1,0 +1,61 @@
+﻿body {
+}
+
+
+.add-home-error-label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.add-home-success-heading {
+    color: green;
+}
+
+.another-home-add {
+    text-decoration: underline;
+}
+
+.add-home-success-section p {
+    text-align: center;
+}
+
+.add-home-success-button {
+    background-color: rgba(56, 152, 236, 0);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 18px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.add-home-success-button:hover {
+    color: #212121;
+    background-color: #fff;
+}
+
+.add-home-success-button-wrapper {
+    text-align: center;
+}
+
+    .add-home-success-button-wrapper .add-home-success-button {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.w-layout-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vhp-grid-div {
+    flex: 1 0 50%; /* each div takes up 50% of the available width */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.topnav {
+    background-color: #c15f09;
+}
